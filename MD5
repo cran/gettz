@@ -1,8 +1,8 @@
-9a7e521eb3cdf13cb4553b633499b99f *ChangeLog
-ffcc655b8638210e9f42dd7abe044eb9 *DESCRIPTION
+d2e82e146855c08f575761bedb99bf55 *ChangeLog
+bdf74dc7966adad2010b7da8249fe9d1 *DESCRIPTION
 f8f1020dc127a182ee26853aefe29fcc *NAMESPACE
 a6654d66574be7595738a2790139fb9a *R/gettz.R
 b1c2484a8367696647226e1b70dac069 *README.md
-9ce95144b6a88956c9cce44b969ca214 *build/partial.rdb
+13417229ee3370bf1895d3e022e3edf7 *build/partial.rdb
 9b1e2631c791cd994721db94a147f4a8 *man/gettz-package.Rd
-8068ddec321b1f7a9406680ceab76dc8 *src/gettz.cpp
+a7981f2914b318ed76dff4ee6d29173d *src/gettz.cpp

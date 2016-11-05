@@ -1,8 +1,8 @@
 Package: gettz
 Type: Package
 Title: Get the Timezone Information
-Version: 0.0.2
-Date: 2016-10-17
+Version: 0.0.3
+Date: 2016-11-05
 Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: A function to retrieve the system timezone on Unix systems
@@ -15,6 +15,6 @@ BugReports: https://github.com/eddelbuettel/gettz/issues
 License: GPL (>= 2)
 RoxygenNote: 5.0.1
 NeedsCompilation: yes
-Packaged: 2016-10-18 02:08:42.997421 UTC; edd
+Packaged: 2016-11-05 13:13:24.914588 UTC; edd
 Repository: CRAN
-Date/Publication: 2016-10-18 10:20:49
+Date/Publication: 2016-11-05 20:56:39
