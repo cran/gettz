@@ -1,7 +1,11 @@
-## gettz [![Build Status](https://travis-ci.org/eddelbuettel/gettz.svg)](https://travis-ci.org/eddelbuettel/gettz) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) [![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) [![Downloads](http://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](http://www.r-pkg.org/pkg/gettz)
+## gettz: Get System Timezone Information
 
-
-Get System Timezone Information
+[![Build Status](https://travis-ci.org/eddelbuettel/gettz.svg)](https://travis-ci.org/eddelbuettel/gettz) 
+[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
+[![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
+[![Dependencies](https://tinyverse.netlify.com/badge/gettz)](https://cran.r-project.org/package=gettz)
+[![Downloads](http://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](http://www.r-pkg.org/pkg/gettz)
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/gettz)](https://github.com/eddelbuettel/gettz)
 
 ### Motivation
 
@@ -22,11 +26,12 @@ package essentially adapted his code to be callable from R.
 
 ### Status
 
-Works on Linux, expected to also work on Solaris and BSD, builds on OS
-X but only returns `NULL` due to the apparent lack of any programmatic
+Works on Linux, expected to also work on Solaris and BSD, builds on OS X and
+Windows but only returns `NULL` due to the apparent lack of any programmatic
 interface.
 
-Windows could possibly be supported by querying the registry.
+Windows could possibly be supported better by querying the
+registry. Contributions / pull requests would be welcomed on this.
 
 ### Installation
 
@@ -34,10 +39,10 @@ The package is now on [CRAN](https://cran.r-project.org) and can be installed
 via a standard
 
 ```r
-R> install.packages("gettz")
+install.packages("gettz")
 ```
 
-provided you are on a Unix system.
+command.
 
 ### Author
 
